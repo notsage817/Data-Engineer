@@ -10,7 +10,7 @@ Business is about a set of processes, including *Operational Processes* and *Ana
 > - HR should be able to access the performance of sales staff
 > - Marketing should be able to see the effect of different sales channels
 > - Management should be able to monitor sales growth
-##### A database could not satisfy the demand of both kind of processes.
+##### A database could not satisfy the demand of both kind of processes. Data Warehouse is a system which includes the processes and technologies and data representations that enable the support to analytical process.
 ### OLAP vs OLTP
 #### OLAP: Online Analytical Processing
 #### OLTP: Online Transactional Processing
