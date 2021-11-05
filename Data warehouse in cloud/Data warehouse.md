@@ -15,4 +15,5 @@ Business is about a set of processes, including *Operational Processes* and *Ana
 #### OLAP: Online Analytical Processing
 #### OLTP: Online Transactional Processing
 ## Technical Perspective
-
+- Data warehouse is a copy of transaction data specifically stuctured for query and analysis
+- A data warehouse is a **subject-oriented**, **integrated**,**nonvolatile** and **time-variant** collection of data in support of management's decisions
