@@ -1,6 +1,6 @@
 # Data Warehouse
 ## Business Perspective
-Business is about a set of processes, including **Operational Processes** and **Analytical Processes**
+Business is about a set of processes, including *Operational Processes* and **Analytical Processes**
 
 ### Eg. A retail's data infrastructure
 - customers should be able to find goods & make orders
