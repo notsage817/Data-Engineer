@@ -24,5 +24,5 @@ Business is about a set of processes, including *Operational Processes* and *Ana
 - A data warehouse is a system than retrieves and consolidates data periodically from the source systems into a dimensional or normalized data store.It usually keeps years of history and is queried for business intelligence or other analytical activities. It is typically updated in batches, not everytime a trsaction happens in the source system
 ### Dimensional Model
 The dimensional model is designed to 
-a. Make it easy for business users to work with the data
-b. Improve analytical queries performance
++ Make it easy for business users to work with the data
++ Improve analytical queries performance
