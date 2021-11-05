@@ -2,6 +2,8 @@
 ## Business Perspective
 Business is about a set of processes, including *Operational Processes* and *Analytical Processes*
 
+##### A database could not satisfy the demand of both kind of processes.
+
 > Eg. A retail's data infrastructure
 > ##### Operational Process
 > - customers should be able to find goods & make orders
