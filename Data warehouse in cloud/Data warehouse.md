@@ -26,3 +26,4 @@ Business is about a set of processes, including *Operational Processes* and *Ana
 The dimensional model is designed to 
 + Make it easy for business users to work with the data
 + Improve analytical queries performance
+#### Fact vs. Dimension table
