@@ -32,7 +32,16 @@ The dimensional model is designed to
 _some of the most famous design_
 ### Kimball's Bus Architecture
 ![image](https://user-images.githubusercontent.com/59595363/142093265-b3fb7d58-aaa4-4d4a-8a32-5ca8be7f0b7d.png)
-
++ ETL
+  + Extracting
+    + Get the data from its source
+    + Possibly deleting old state
+  + Transforming
+    + Integrate many sources together
+    + Possibly cleansing: inconsistencies, duplication, missing values
+    + Possibly producing diagnostic metadata
+  + Loading
+    + Structuring and loading the data into the dimensional data model
 ### Independent Data Marts
 ### Inmon's Corporate Information Factory (CIF)
 ### Hybrid Bus & CIF
