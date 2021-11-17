@@ -27,3 +27,12 @@ The dimensional model is designed to
 + Make it easy for business users to work with the data
 + Improve analytical queries performance
 #### Fact vs. Dimension table
+
+## Data Warehouse Architecture
+__some of the most famous design__
+### Kimball's Bus Architecture
+![image](https://user-images.githubusercontent.com/59595363/142093265-b3fb7d58-aaa4-4d4a-8a32-5ca8be7f0b7d.png)
+
+### Independent Data Marts
+### Inmon's Corporate Information Factory (CIF)
+### Hybrid Bus & CIF
