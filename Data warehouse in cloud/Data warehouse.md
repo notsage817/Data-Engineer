@@ -52,8 +52,8 @@ _some of the most famous design_
 ### Inmon's Corporate Information Factory (CIF)
 ![image](https://user-images.githubusercontent.com/59595363/142095181-bc36d72c-fda5-4958-b7b6-dbd5260fc35f.png)
 + 2 ETL Processes
-  + Source systems &rarr 3 NF DB
-  + 3 NF DB &rarr Departmental Data Marts
+  + Source systems &rarr; 3 NF DB
+  + 3 NF DB &rarr; Departmental Data Marts
 + The 3NF DB acts an enterprise wide data store
   + Single integrated source of truth for data-marts
   + Accessable for end-users
