@@ -29,7 +29,7 @@ The dimensional model is designed to
 #### Fact vs. Dimension table
 
 ## Data Warehouse Architecture
-__some of the most famous design__
+_some of the most famous design_
 ### Kimball's Bus Architecture
 ![image](https://user-images.githubusercontent.com/59595363/142093265-b3fb7d58-aaa4-4d4a-8a32-5ca8be7f0b7d.png)
 
