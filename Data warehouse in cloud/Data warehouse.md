@@ -43,5 +43,11 @@ _some of the most famous design_
   + Loading
     + Structuring and loading the data into the dimensional data model
 ### Independent Data Marts
+![image](https://user-images.githubusercontent.com/59595363/142094387-e705e475-522a-41f6-b1e5-95f066854dfb.png)
++ Departments have independent ETL processes & dimensional models
++ These **separate & smaller** dimensional models are called "Data Marts"
++ Different fact tables for the same events, **no conformed dimensions**
++ Uncoordinated efforts can lead to inconsistent views
++ Despite awareness of the emergence of this architecture from departmental autonomy, it is generally discouraged
 ### Inmon's Corporate Information Factory (CIF)
 ### Hybrid Bus & CIF
