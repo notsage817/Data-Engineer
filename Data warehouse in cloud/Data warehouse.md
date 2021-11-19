@@ -61,3 +61,13 @@ _some of the most famous design_
 ### Hybrid Bus & CIF
 ![image](https://user-images.githubusercontent.com/59595363/142095867-da7a25aa-0a42-48f3-a86c-d74efa51b3b9.png)
 Combine of Kimball and Inmon
+## OLAP Cubes
+>An OLAP cube is an aggregation of a fact metric on a number of dimensions, which is easy to cummunicate to business users.
+**Roll up** 
+- Sum up a branch by a higher hierarchy of category(eg. sum up sales of all the cities by countried)
+**Drill down** 
+- Decompose a branch to a lower hierarchy of category.(eg. decompose sales of each city into districts)
+**Slice & Dice** 
+- Slice: Reducing N dimensions to N-1 dimensions by restricting one dimension to a single value 
+- Dice: Same dimensions but computing a sub-cube by restricting some of the value of the dimensions
+
