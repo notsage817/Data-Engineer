@@ -74,3 +74,7 @@ Combine of Kimball and Inmon
 - Slice: Reducing N dimensions to N-1 dimensions by restricting one dimension to a single value 
 - Dice: Same dimensions but computing a sub-cube by restricting some of the value of the dimensions
 
+>OLAP cubes technology
+>Pre-aggregate the OLAP cubes and saves them on a special purpose non-relational database(MOLAP)
+> 
+> Compute the OLAP cubes on the fly from the existing relational databases where the dimensional model resides(ROLAP)
