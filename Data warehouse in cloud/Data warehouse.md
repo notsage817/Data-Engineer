@@ -64,6 +64,8 @@ Combine of Kimball and Inmon
 ## OLAP Cubes
 >An OLAP cube is an aggregation of a fact metric on a number of dimensions, which is easy to cummunicate to business users.
 
++ *MOLAP*: Pre-aggregate the OLAP cubes and saves them on a special purpose non-relational database
++ *ROLAP*: Compute the OLAP cubes on the fly from the existing relational databases where the dimensional model resides
 **Roll up** 
 - Sum up a branch by a higher hierarchy of category(eg. sum up sales of all the cities by countried)
 
