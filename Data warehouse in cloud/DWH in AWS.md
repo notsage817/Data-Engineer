@@ -5,5 +5,8 @@
 ![image](https://user-images.githubusercontent.com/59595363/144727961-81af0f08-3089-4cf8-8cbd-6f458c4427e9.png)
  #### Amazon Redshift Technology
  + Column-oriented
- + Suited for OLAP workloads
- + Modified postgresql internally
+   + Best suited for storing OLAP workloads
+   + Modified postgresql internally
+ + Massively Parallel Processing (MPP) databases parallelize the execution of one query on multiples CPUs/machines
+   + A table is partitioned and partitions are processed in parallel
+ + cloud-managed
