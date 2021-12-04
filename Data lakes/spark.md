@@ -1,10 +1,10 @@
 ### Four key machine components
-+ CPU
++ *CPU*
 2.5 Gigahertz CPU means that CPU processes 2.5 billion operations per second
 Computer operate 8 bytes data per operation
-+ Memory
++ *Memory*
 "efficient, expensive, ephemeral"
-+ Storage
++ *Storage*
 slow when deal with gigabyte or terabyte data
-+ Network
++ *Network*
 The bottlenect when working with big data
