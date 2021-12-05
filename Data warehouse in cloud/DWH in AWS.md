@@ -3,18 +3,23 @@
 ![image](https://user-images.githubusercontent.com/59595363/144727904-3a604aad-960a-4b9f-afea-d461fb5efbf9.png)
 ![image](https://user-images.githubusercontent.com/59595363/144727940-cf722d19-d89e-41c4-b36b-75014caf1984.png)
 ![image](https://user-images.githubusercontent.com/59595363/144727961-81af0f08-3089-4cf8-8cbd-6f458c4427e9.png)
- #### Amazon Redshift Technology
+ ### Amazon Redshift Technology
  + Column-oriented
    + Best suited for storing OLAP workloads
    + Modified postgresql internally
  + Massively Parallel Processing (MPP) databases parallelize the execution of one query on multiples CPUs/machines
    + A table is partitioned and partitions are processed in parallel
  + cloud-managed
-##### Architecture
+#### Architecture
 Redshift architecture is the cluster of one leader node and more than one compute nodes
 ![image](https://user-images.githubusercontent.com/59595363/144728314-6af9b01c-7381-4841-9df5-f691b9d0a183.png)
-Leader node 
-+ communicate with outside client applications
-+ coordinate compute nodes
-+ optimize query execution
+*Leader node* 
++ Communicate with outside client applications
++ Coordinate compute nodes
++ Optimize query execution
 Compute node
++ Each with own CPU, memory and disk(determined by the node type)
++ Scale up(get more powerful nodes) or scale out(get more nodes)
+Node slices
++ Each compute node is logically divided into a number of slices
++ A cluster with n slices can process n partitions of a tables simultaneously
