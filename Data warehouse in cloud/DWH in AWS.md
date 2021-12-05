@@ -10,3 +10,11 @@
  + Massively Parallel Processing (MPP) databases parallelize the execution of one query on multiples CPUs/machines
    + A table is partitioned and partitions are processed in parallel
  + cloud-managed
+##### Architecture
+Redshift architecture is the cluster of one leader node and more than one compute nodes
+![image](https://user-images.githubusercontent.com/59595363/144728314-6af9b01c-7381-4841-9df5-f691b9d0a183.png)
+Leader node 
++ communicate with outside client applications
++ coordinate compute nodes
++ optimize query execution
+Compute node
