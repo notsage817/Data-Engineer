@@ -43,3 +43,6 @@ An Ecosystem of tools for big data storage and data analysis. The major differen
 
   a big data storage system that splits data into chunks and stores the chunks across a cluster of computers.
 ### Spark
+#### DAG(Directed Acyclical Graph)
+
+Step-by-step directions of what functions and data spark will need before start wrangling data.
